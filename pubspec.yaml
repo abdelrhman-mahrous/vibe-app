@@ -1,0 +1,118 @@
+name: vibe
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_secure_storage: ^10.0.0
+  flutter_native_splash: ^2.4.7
+  glass_kit: ^4.0.2
+  internet_connection_checker_plus: ^2.9.1+2
+  shimmer: ^3.0.0
+  flutter_svg: ^2.2.3
+  cupertino_icons: ^1.0.8
+  flutter_animate: ^4.5.0
+  flutter_bloc: ^9.1.1
+  flutter_launcher_icons: ^0.14.4
+  flutter_spinkit: ^5.2.2
+  supabase: ^2.10.2
+  supabase_flutter: ^2.12.0
+  url_launcher: ^6.3.2
+  easy_localization: ^3.0.8
+  bloc: ^9.2.0
+  freezed_annotation: ^3.1.0
+  get_it: ^9.2.0
+  package_info_plus: ^9.0.0
+  http: ^1.2.0
+  intl: ^0.20.2
+  flutter_screenutil: ^5.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.10.5
+  freezed: ^3.2.5
+  retrofit_generator: 10.2.1 
+  flutter_lints: ^6.0.0
+  hive_ce_generator: any 
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/fonts/poppins/
+    - assets/fonts/ibm_plex_sans_arabic/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Black.ttf
+          weight: 900
+        - asset: assets/fonts/poppins/Poppins-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/poppins/Poppins-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/poppins/Poppins-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/poppins/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/poppins/Poppins-ThinItalic.ttf
+          weight: 100
+          style: italic
+    - family: IBM
+      fonts:
+        - asset: assets/fonts/ibm_plex_sans_arabic/IBMPlexSansArabic-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/ibm_plex_sans_arabic/IBMPlexSansArabic-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/ibm_plex_sans_arabic/IBMPlexSansArabic-Light.ttf
+          weight: 300
+        - asset: assets/fonts/ibm_plex_sans_arabic/IBMPlexSansArabic-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ibm_plex_sans_arabic/IBMPlexSansArabic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/ibm_plex_sans_arabic/IBMPlexSansArabic-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/ibm_plex_sans_arabic/IBMPlexSansArabic-Thin.ttf
+          weight: 100
+          
