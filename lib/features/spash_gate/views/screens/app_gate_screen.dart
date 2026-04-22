@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import '../../../../../../core/constants/app_images.dart';
+import '../../../../../../../core/constants/app_images.dart';
 import '../../data/repos/app_config_repo.dart';
-import '../../../../../../core/theme/app_colors.dart';
-import '../../../core/global_widgets/app_loading_widget.dart';
+import '../../../../../../../core/theme/app_colors.dart';
+import '../../../../core/global_widgets/app_loading_widget.dart';
 import '../../data/models/app_config_model.dart';
 import 'force_update_screen.dart';
 import 'maintenance_screen.dart';

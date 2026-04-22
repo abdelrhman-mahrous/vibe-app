@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../data/repos/app_config_repo.dart';
-import '../../../../../../core/theme/app_colors.dart';
+import '../../../../../../../core/theme/app_colors.dart';
 import '../../data/models/app_config_model.dart';
 import 'app_gate_screen.dart';
 
